@@ -131,18 +131,4 @@ google-play-editors-choice-analysis/
 │   └── rating_analysis.png
 └── data/
     └── README.md
-    Limitations
-Editors' Choice applications represent a small proportion of the overall dataset, creating substantial class imbalance.
-Observational relationships do not imply causation.
-Missing values and incomplete app metadata may influence the final analytical sample.
-Platform recognition may depend on factors not available in the dataset, including editorial review criteria, app quality, design, or strategic platform considerations.
-Future Improvements
 
-Future work could include:
-
-Building a leakage-free machine learning pipeline for Editors' Choice prediction
-Using Precision-Recall AUC for highly imbalanced classification
-Comparing Logistic Regression, LightGBM, and other classification models
-Applying SHAP values for model interpretability
-Performing temporal analysis of app performance
-Developing an interactive Tableau or Streamlit dashboard
